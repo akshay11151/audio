@@ -30,7 +30,7 @@ def transcribe_file_with_auto_language(file_path):
 
 if __name__ == "__main__":
     # Set the path to your service account key JSON file
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "D:/Downs/audio-384617-617199920ed2.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "D:/Downs/audio.json"
 
     # Set the path to your audio file
     file_path = "D:/Downs/A_J_Cook_Speech_from_Lansbury's_Labour_Weekly.ogg"
